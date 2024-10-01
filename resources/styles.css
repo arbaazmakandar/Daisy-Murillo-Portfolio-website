@@ -204,7 +204,7 @@ body {
 .ParentParentAboutMe {
   display: inline-block;
   width: 90%;
-  padding: 50px;
+  /* padding: 50px; */
 }
 .sectionThreeTextClass {
   display: inline-block;
@@ -347,7 +347,7 @@ body {
   flex-direction: column;
   justify-content: space-around;
   position: relative;
-  gap: 30px;
+  gap: 80px;
 }
 
 .project-card-tesla {
@@ -357,29 +357,31 @@ body {
   padding: 20px;
   position: relative;
   margin-bottom: 40px;
+  margin: 20px;
 }
 
 .project-card-tesla img {
-  width: 100%;
+  width: 80%;
   border-radius: 10px;
   margin-bottom: 15px;
 }
 
 .project-card-tesla .icon {
   position: absolute;
-  top: -30px;
+  top: 20px;
   left: -10px;
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
 }
 
 .project-card-twitter {
   background-color: #121214;
-  border: 1px solid #0062ff;
+  border: 1px solid #1da1f2;
   border-radius: 10px;
   padding: 20px;
   position: relative;
   margin-bottom: 40px;
+  margin: 20px;
 }
 
 .project-card-twitter img {
@@ -390,7 +392,8 @@ body {
 
 .project-card-twitter .icon {
   position: absolute;
-  top: -30px;
+  top: 10px;
+
   left: 10px;
   width: 50px;
   height: 50px;
@@ -403,6 +406,7 @@ body {
   padding: 20px;
   position: relative;
   margin-bottom: 40px;
+  margin: 20px;
 }
 
 .project-card-slack img {
@@ -413,7 +417,7 @@ body {
 
 .project-card-slack .icon {
   position: absolute;
-  top: -30px;
+  top: 10px;
   left: 10px;
   width: 50px;
   height: 50px;
@@ -426,6 +430,7 @@ body {
   padding: 20px;
   position: relative;
   margin-bottom: 40px;
+  margin: 20px;
 }
 
 .project-card-grab img {
@@ -436,7 +441,7 @@ body {
 
 .project-card-grab .icon {
   position: absolute;
-  top: -30px;
+  top: 10px;
   left: 10px;
   width: 50px;
   height: 50px;
@@ -483,57 +488,64 @@ body {
   background-color: #5c4db1;
 }
 
-/* Specific Project Logos */
 .tesla-logo {
   border-color: #d72c2c;
+  border-width: 2px;
+  border-style: solid;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   position: absolute;
-  top: -70px;
-  left: 550;
+  top: -90px;
+  right: 0;
 }
 
 .slack-logo {
-  border-color: #00b67e;
+  border-color: #b0b600;
+  border-width: 2px;
+  border-style: solid;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   position: absolute;
-  top: -25px;
-  left: 550;
+  top: -90px;
+  right: 0;
 }
 
 .twitter-logo {
   border-color: #1da1f2;
+  border-width: 2px;
+  border-style: solid;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   position: absolute;
-  top: -25px;
-  left: 550;
+  top: -90px;
+  right: 0;
 }
 
 .grab-logo {
   border-color: #00a547;
+  border-width: 2px;
+  border-style: solid;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   position: absolute;
-  top: -25px;
-  left: 550;
+  top: -90px;
+  right: 0;
 }
 
 .lineThree {
@@ -542,7 +554,7 @@ body {
   top: 7;
   width: 90px;
   height: 2px;
-  background: #448ee4;
+  background: #02ccfe;
   margin: 15px auto;
   margin-right: 20px;
   border-radius: 5px;
