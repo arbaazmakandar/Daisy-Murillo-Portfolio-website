@@ -107,7 +107,7 @@ body {
 .text {
   display: inline;
   line-height: 1.8;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .Daisy {
@@ -184,7 +184,8 @@ body {
 .topContent {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  gap: 20px;
+  /* justify-content: space-between; */
   width: 100%;
 }
 .leftContent {
@@ -214,7 +215,7 @@ body {
 .lineOneExtend {
   display: inline-block;
   position: relative;
-  width: 600px;
+  width: 500px;
   height: 2px;
   float: right;
   top: 750;
@@ -224,7 +225,7 @@ body {
 .lineTwoExtend {
   display: inline-block;
   position: relative;
-  width: 600px;
+  width: 500px;
   height: 2px;
   top: 750;
   background: #9f00ff;
@@ -233,10 +234,10 @@ body {
 .myCards {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  width: 45%;
-  padding: 50px;
+  width: 55%;
+  padding: 20px;
 }
 
 .cardOne,
@@ -245,12 +246,13 @@ body {
   background-color: #1a1a1a;
   padding: 20px;
   text-align: center;
-  width: 30%;
+  width: 40%;
   height: 400px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 10px;
 }
 
 .skills {
@@ -687,6 +689,17 @@ body {
   color: #fff6f6;
 }
 
+.contactsImage {
+  height: 0px;
+}
+
+.contactsImage > img {
+  width: 150px;
+  position: relative;
+  top: -200px;
+  z-index: 1;
+}
+
 .loader {
   position: fixed;
   top: 0;
@@ -790,7 +803,7 @@ body {
 
     width: 100%;
 
-    padding: 100px;
+    padding: 70px;
   }
 
   .sectionOneTextClass img {
@@ -826,8 +839,8 @@ body {
     display: flex;
     flex-direction: column; /* Stack the cards vertically */
     align-items: center;
+    justify-content: space-between;
     width: 100%; /* Full width for the container */
-    padding: 20px;
     gap: 20px; /* Add space between each card */
   }
 
@@ -837,13 +850,13 @@ body {
     background-color: #1a1a1a;
     padding: 20px;
     text-align: center;
-    width: 80%; /* Increase the width of the cards */
-    height: auto; /* Remove fixed height to fit content */
+    width: 40%;
+    height: auto;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for a raised effect */
+    margin: 10px;
   }
 
   .cardOne h1,
@@ -994,7 +1007,7 @@ body {
 
   .Contacts {
     color: #448ee4;
-    font-size: 4.5rem;
+    font-size: 3.5rem;
   }
 
   .sectionThreeTextClass {
@@ -1021,5 +1034,9 @@ body {
   .submit-btn button {
     width: 200px;
     text-align: center;
+  }
+
+  .contactsImage {
+    display: none;
   }
 }
