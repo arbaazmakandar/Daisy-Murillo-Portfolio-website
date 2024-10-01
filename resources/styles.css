@@ -361,7 +361,7 @@ body {
 }
 
 .project-card-tesla img {
-  width: 80%;
+  width: 100%;
   border-radius: 10px;
   margin-bottom: 15px;
 }
@@ -503,6 +503,10 @@ body {
   right: 0;
 }
 
+.tesla-logo > img {
+  width: 50px;
+}
+
 .slack-logo {
   border-color: #b0b600;
   border-width: 2px;
@@ -573,6 +577,17 @@ body {
   padding: 100px;
 }
 
+.lineFour {
+  display: inline-block;
+  position: relative;
+  top: 7;
+  width: 90px;
+  height: 2px;
+  background: #448ee4;
+  margin: 15px auto;
+  margin-right: 20px;
+  border-radius: 5px;
+}
 .contact-section {
   display: flex;
   flex-direction: column;
