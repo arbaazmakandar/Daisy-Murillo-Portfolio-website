@@ -13,3 +13,9 @@ function toggleMenu() {
     });
   });
   
+
+  // Optional: Prevent form submission for demonstration purposes
+  const form = document.querySelector(".contact-form");
+  form.addEventListener("submit", function (event) {
+    alert("Form submitted successfully!");
+  });

@@ -1,741 +1,985 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    /* width: 100vw; */
-  }
-  
-  .navbar {
-    padding: 15px;
-    height: 100px;
-    padding-right: 100px;
-    background-color: #0d0d0d;
-    font-size: large;
-    position: static;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-    position: relative;
-  }
-
- .logo{
-    padding-left: 100px;
-
- }
-  
-  .logo a {
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: bold;
-  }
-  .logo img {
-    width: 30px;
-    height: auto;
-  }
-
-  .nav-links ul {
-    list-style-type: none;
-    display: flex;
-    margin: 0;
-  }
-  
-  .nav-links ul li {
-    margin-left: 20px;
-  }
-  
-  .nav-links ul li a {
-    color: rgb(136, 136, 136);
-    text-decoration: none;
-    padding: 8px 12px;
-    transition: background-color 0.3s;
-  }
-  
-  .nav-links ul li a:hover {
-    color: white;
-    border-radius: 4px;
-  }
-  
-  .hamburger {
-    display: none;
-    cursor: pointer;
-    flex-direction: column;
-    gap: 5px;
-  }
-  
-  .hamburger span {
-    width: 25px;
-    height: 3px;
-    background-color: white;
-    border-radius: 3px;
-    transition: all 0.3s;
-  }
-
-  .line{
-    display: inline-block;
-    position: relative;
-    top: 7;
-    width: 90px;
-    height: 2px;
-    background: #9f00ff;
-    margin: 15px auto;
-    margin-right: 20px;
-    border-radius: 5px;
-  }
-
- .sectionOne{
-
-    display: flex;
-    width: 100%;
-    height: 1000px;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    align-items: center;
-   
- }
-
-
- .sectionOneTextClass{
-    display: inline-block;
-
-    width: 50%;
-
-    padding: 100px;
-
- }
-
-
- .text{
-    display: inline;    
-    line-height: 1.8;
-    font-size: 25px;
-
- }
-
-.Daisy{
-    color: white;
-    font-size: 7rem;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
- .Murillo{
-    color: #9f00ff;
-    font-size: 7rem;
- }
- .daisyMurillo{
-    font-size: 100px;
-    font-weight: 900;
- }
 
- .myImage{
-    display: flex;
-    width: 50%;
-    align-items: center;
-    float: right;
- }
+body {
+  font-family: Arial, sans-serif;
+  /* width: 100vw; */
+}
 
- .myImage img{
-    position: relative;
-    right: 0;
-    background-size: cover;
-    width: 100%;
- }
+.navbar {
+  padding: 15px;
+  height: 100px;
+  padding-right: 100px;
+  background-color: #0d0d0d;
+  font-size: large;
+  position: static;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  position: relative;
+}
 
+.logo {
+  padding-left: 100px;
+}
 
- .sectionTwo {
-    display: flex;
-    /* width: 100vw; */
-    height: auto;
-    background-color: rgb(31, 31, 31);
-    color: white;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 50px 0;
+.logo a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+.logo img {
+  width: 30px;
+  height: auto;
+}
+
+.nav-links ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+}
+
+.nav-links ul li {
+  margin-left: 20px;
+}
+
+.nav-links ul li a {
+  color: rgb(136, 136, 136);
+  text-decoration: none;
+  padding: 8px 12px;
+  transition: background-color 0.3s;
+}
+
+.nav-links ul li a:hover {
+  color: white;
+  border-radius: 4px;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  border-radius: 3px;
+  transition: all 0.3s;
+}
+
+.line {
+  display: inline-block;
+  position: relative;
+  top: 7;
+  width: 90px;
+  height: 2px;
+  background: #9f00ff;
+  margin: 15px auto;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.sectionOne {
+  display: flex;
+
+  width: 100%;
+  height: 1000px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  align-items: center;
+}
+
+.sectionOneTextClass {
+  display: inline-block;
+
+  width: 50%;
+
+  padding: 100px;
+}
+
+.text {
+  display: inline;
+  line-height: 1.8;
+  font-size: 25px;
+}
+
+.Daisy {
+  color: white;
+  font-size: 4rem;
+}
+
+.Murillo {
+  color: #9f00ff;
+  font-size: 4rem;
+}
+.daisyMurillo {
+  font-size: 100px;
+  font-weight: 900;
+}
+.parentAboutMe {
+  font-size: 100px;
+  font-weight: 900;
+}
+
+.myImage {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  float: right;
+}
+
+.myImage img {
+  position: relative;
+  right: 0;
+  background-size: cover;
+  width: 100%;
+}
+
+.sectionTwo {
+  display: flex;
+  /* width: 100vw; */
+  height: auto;
+  background-color: rgb(31, 31, 31);
+  color: white;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px 0;
 }
 
 .lineTwo {
-    display: inline-block;
-    position: relative;
-    width: 90px;
-    height: 2px;
-    top: 7;
-    background: #6960ec;
-    margin: 15px 0 15px auto;
-    border-radius: 5px;
-     margin-right: 20px;
-    border-radius: 5px;
-    
+  display: inline-block;
+  position: relative;
+  width: 90px;
+  height: 2px;
+  top: 7;
+  background: #6960ec;
+  margin: 15px 0 15px auto;
+  border-radius: 5px;
+  margin-right: 20px;
+  border-radius: 5px;
 }
 
-.About {
-    color: white;
+.ContactsParent {
+  font-size: 100px;
+  font-weight: 900;
+}
+
+.Contacts {
+  color: white;
 }
 
 .Me {
-    color: #6960ec;
+  color: #6960ec;
 }
-.OuterTopContentDiv{
-    width: 100%;
+.OuterTopContentDiv {
+  width: 100%;
 }
 .topContent {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
 }
-.leftContent{
-    display: flex;
-    align-items: center;
+.leftContent {
+  display: flex;
+  align-items: center;
 }
 .sectionTwoTextClass {
-    display: inline-block;
-    width: 90%;  /* Adjusted width to align next to .myCards */
-    padding: 50px;
+  display: inline-block;
+  width: 90%;
+  padding: 50px;
 }
-.lineOneExtend{
-    display: inline-block;
-    position: relative;
-    width: 600px;
-    height: 2px;
-    float: right;
-    top: 750;
-    background: #6960ec;
-    border-radius: 5px;
+.ParentParentAboutMe {
+  display: inline-block;
+  width: 90%;
+  padding: 50px;
 }
-.lineTwoExtend{
-    display: inline-block;
-    position: relative;
-    width: 600px;
-    height: 2px;
-    top: 750;
-    background: #9f00ff;
-    border-radius: 5px;
+.sectionThreeTextClass {
+  display: inline-block;
+  width: 90%;
+  padding: 50px;
+}
+.lineOneExtend {
+  display: inline-block;
+  position: relative;
+  width: 600px;
+  height: 2px;
+  float: right;
+  top: 750;
+  background: #6960ec;
+  border-radius: 5px;
+}
+.lineTwoExtend {
+  display: inline-block;
+  position: relative;
+  width: 600px;
+  height: 2px;
+  top: 750;
+  background: #9f00ff;
+  border-radius: 5px;
 }
 .myCards {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 45%; /* Adjusted width to align next to text */
-    padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 45%;
+  padding: 50px;
 }
 
-.cardOne, .cardTwo, .cardThree {
-    background-color: #1a1a1a;
-    padding: 20px;
-    text-align: center;
-    width: 30%;
-    height: 400px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.cardOne,
+.cardTwo,
+.cardThree {
+  background-color: #1a1a1a;
+  padding: 20px;
+  text-align: center;
+  width: 30%;
+  height: 400px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .skills {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 50px;
 }
-.textHead{
-    font-weight: 300;
-    font-size: 30;
+.textHead {
+  font-weight: 300;
+  font-size: 30;
 }
-.textCard{
-    line-height: 1.8;
-    font-weight: 200;
-    font-size: 20;
-}
-
-.codingCard, .infrastructureCard, .webMasterCard {
-    width: 20%;
-    text-align: center;
-    background-color: #1a1a1a;
-    padding: 20px;
-    border-radius: 10px;
+.textCard {
+  line-height: 1.8;
+  font-weight: 200;
+  font-size: 20;
 }
 
-.codingCard img, .infrastructureCard img, .webMasterCard img {
-    width: 60px;
-    height: auto;
-    margin-bottom: 20px;
+.codingCard,
+.infrastructureCard,
+.webMasterCard {
+  width: 20%;
+  text-align: center;
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
 }
 
-.codingCard div, .infrastructureCard div, .webMasterCard div {
-    margin-bottom: 10px;
+.codingCard img,
+.infrastructureCard img,
+.webMasterCard img {
+  width: 60px;
+  height: auto;
+  margin-bottom: 20px;
 }
 
+.codingCard div,
+.infrastructureCard div,
+.webMasterCard div {
+  margin-bottom: 10px;
+}
 
+.sectionThree {
+  display: flex;
+  width: 100%;
+  height: 2000px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+}
+.Projects {
+  color: white;
+  font-size: 5rem;
+}
 
-.sectionThree{
-    display: flex;
-    width: 100%;
-    height: 2000px;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    align-items: center;
-    justify-content: space-around;
+.ProjectsParentClass {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  align-items: center;
 }
 
 .left-column {
-    width: 45%;
+  width: 45%;
 }
 
 /* Right section for Slack + Grab */
 .right-column {
-    width: 45%;
+  width: 45%;
 }
 
 /* Header Section */
 .projects-header {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .projects-header h1 {
-    font-size: 3.5rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #e8e8ff;
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #e8e8ff;
 }
 
 .projects-header p {
-    font-size: 1.2rem;
-    color: #b0b0b0;
-    line-height: 1.5;
+  font-size: 1.2rem;
+  color: #b0b0b0;
+  line-height: 1.5;
 }
 
 /* Project Cards */
 .projects {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    position: relative;
-    gap: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  gap: 30px;
 }
 
 .project-card-tesla {
-    background-color: #121214;
-    border: 1px solid #eb1010;
-    border-radius: 10px;
-    padding: 20px;
-    position: relative;
-    margin-bottom:40px ;
+  background-color: #121214;
+  border: 1px solid #eb1010;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 40px;
 }
 
-
 .project-card-tesla img {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 15px;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 
 .project-card-tesla .icon {
-    position: absolute;
-    top: -30px;
-    left: 10px;
-    width: 50px;
-    height: 50px;
+  position: absolute;
+  top: -30px;
+  left: 10px;
+  width: 50px;
+  height: 50px;
 }
 
 .project-card-twitter {
-    background-color: #121214;
-    border: 1px solid #0062ff;
-    border-radius: 10px;
-    padding: 20px;
-    position: relative;
-    margin-bottom:40px ;
+  background-color: #121214;
+  border: 1px solid #0062ff;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 40px;
 }
 
-
 .project-card-twitter img {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 15px;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 
 .project-card-twitter .icon {
-    position: absolute;
-    top: -30px;
-    left: 10px;
-    width: 50px;
-    height: 50px;
+  position: absolute;
+  top: -30px;
+  left: 10px;
+  width: 50px;
+  height: 50px;
 }
 
 .project-card-slack {
-    background-color: #121214;
-    border: 1px solid #f2ff00;
-    border-radius: 10px;
-    padding: 20px;
-    position: relative;
-    margin-bottom:40px ;
+  background-color: #121214;
+  border: 1px solid #f2ff00;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 40px;
 }
 
-
 .project-card-slack img {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 15px;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 
 .project-card-slack .icon {
-    position: absolute;
-    top: -30px;
-    left: 10px;
-    width: 50px;
-    height: 50px;
+  position: absolute;
+  top: -30px;
+  left: 10px;
+  width: 50px;
+  height: 50px;
 }
 
 .project-card-grab {
-    background-color: #121214;
-    border: 1px solid #03ff4a;
-    border-radius: 10px;
-    padding: 20px;
-    position: relative;
-    margin-bottom:40px ;
+  background-color: #121214;
+  border: 1px solid #03ff4a;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 40px;
 }
 
-
 .project-card-grab img {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 15px;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 
 .project-card-grab .icon {
-    position: absolute;
-    top: -30px;
-    left: 10px;
-    width: 50px;
-    height: 50px;
+  position: absolute;
+  top: -30px;
+  left: 10px;
+  width: 50px;
+  height: 50px;
 }
 
 .project-title {
-    font-size: 1.6rem;
-    margin-bottom: 15px;
-    color: #ffffff;
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  color: #ffffff;
 }
 
 .project-description {
-    font-size: 1rem;
-    color: #b0b0b0;
-    line-height: 1.6;
-    margin-bottom: 20px;
+  font-size: 1rem;
+  color: #b0b0b0;
+  line-height: 1.6;
+  margin-bottom: 20px;
 }
 
 .project-buttons {
-    display: flex;
-    justify-content: flex-start;
-    gap: 10px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
 }
 
 .project-buttons a {
-    text-decoration: none;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-size: 0.9rem;
-    transition: background-color 0.3s;
-    text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+  text-align: center;
 }
 
 .ios {
-    background-color: #007aff;
+  background-color: #007aff;
 }
 
 .android {
-    background-color: #5c4db1;
+  background-color: #5c4db1;
 }
 
 .infrastructure {
-    background-color: #5c4db1;
+  background-color: #5c4db1;
 }
 
 /* Specific Project Logos */
 .tesla-logo {
-    border-color: #d72c2c;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 70px;
-    height: 70px;
-    position: absolute;
-    top: -70px;
-    left: 800px;
+  border-color: #d72c2c;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: -70px;
+  left: 800px;
 }
 
 .slack-logo {
-    border-color: #00b67e;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 70px;
-    height: 70px;
-    position: absolute;
-    top: -25px;
-    left: 800px;
+  border-color: #00b67e;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: -25px;
+  left: 800px;
 }
 
 .twitter-logo {
-    border-color: #1da1f2;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 70px;
-    height: 70px;
-    position: absolute;
-    top: -25px;
-    left: 800px;
+  border-color: #1da1f2;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: -25px;
+  left: 800px;
 }
 
 .grab-logo {
-    border-color: #00a547;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 70px;
-    height: 70px;
-    position: absolute;
-    top: -25px;
-    left: 800px;
+  border-color: #00a547;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: -25px;
+  left: 800px;
 }
 
-
-.lineThree{
-    display: inline-block;
-    position: relative;
-    top: 7;
-    width: 90px;
-    height: 2px;
-    background: #448ee4;
-    margin: 15px auto;
-    margin-right: 20px;
-    border-radius: 5px;
+.lineThree {
+  display: inline-block;
+  position: relative;
+  top: 7;
+  width: 90px;
+  height: 2px;
+  background: #448ee4;
+  margin: 15px auto;
+  margin-right: 20px;
+  border-radius: 5px;
 }
 
-
-.sectionFour{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 1000px;
-    background-color: rgb(31, 31, 31);
-    color: white;
-    align-items: center;
-    padding: 100px;
+.sectionFour {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 1000px;
+  background-color: rgb(31, 31, 31);
+  color: white;
+  align-items: center;
+  padding: 100px;
 }
-
 
 .contact-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .contact-header {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .contact-header h1 {
-    font-size: 3.5rem;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    color: white;
+  font-size: 3.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: white;
 }
 
 .contact-header span {
-    margin-left: 10px;
-    font-size: 3.5rem;
-    color: #4a90e2;
+  margin-left: 10px;
+  font-size: 3.5rem;
+  color: #4a90e2;
 }
 
 .contact-form {
-    width: 100%;
+  width: 100%;
 }
 
 .form-row {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .input-group {
-    flex: 0 0 48%;
+  flex: 0 0 48%;
 }
 
 .input-group label {
-    display: block;
-    margin-bottom: 5px;
-    font-size: 1.2rem;
-    color: #757575;
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  color: #757575;
 }
 
-.input-group input, .input-group textarea {
-    width: 100%;
-    padding: 10px;
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid #757575;
-    color: white;
-    font-size: 1rem;
-    outline: none;
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #757575;
+  color: white;
+  font-size: 1rem;
+  outline: none;
 }
 
 .input-group textarea {
-    resize: none;
-    height: 100px;
+  resize: none;
+  height: 100px;
 }
 
 .submit-btn {
-    text-align: center;
-    margin-top: 60px;
+  text-align: center;
+  margin-top: 60px;
 }
 
 .submit-btn button {
-    padding: 12px 30px;
-    background-color: #4a90e2;
-    color: white;
-    font-size: 1.2rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 500px;
-
-}
-
-.submit-btn button:hover {
-    opacity: 0.9;
+  padding: 12px 30px;
+  background-color: #4a90e2;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 500px;
 }
 
 .social-icons {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-top: 40px;
-    gap: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 40px;
+  gap: 20px;
 }
 
 .social-icons img {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
 .footer {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 1rem;
-    color: #757575;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 1rem;
+  color: #757575;
 }
 
-
 .loader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #333333;
+  transition: opacity 0.75s, visibility 0.75s;
+}
+
+.loader--hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader::after {
+  content: "";
+  width: 75px;
+  height: 75px;
+  border: 15px solid #dddddd;
+  border-top-color: #910180;
+  border-radius: 50%;
+  animation: loading 0.75s ease infinite;
+}
+
+@keyframes loading {
+  from {
+    transform: rotate(0turn);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+/* Responsive for mobile screens */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #0d0d0d;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
     align-items: center;
+  }
+
+  .nav-links ul li {
+    margin: 10px 0;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .lineOneExtend {
+    display: none;
+  }
+
+  .lineTwoExtend {
+    display: none;
+  }
+
+  .tesla-logo {
+    left: auto;
+  }
+  .slack-logo {
+    left: auto;
+  }
+  .grab-logo {
+    left: auto;
+  }
+  .twitter-logo {
+    left: auto;
+  }
+
+  .sectionOne {
+    display: flex;
+    flex-direction: column-reverse;
+
+    /* width: 100%; */
+    height: 1000px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    align-items: center;
+  }
+
+  .sectionOneTextClass {
+    display: inline-block;
+
+    width: 100%;
+
+    padding: 100px;
+  }
+
+  .sectionOneTextClass img {
+    rotate: -90deg;
+  }
+
+  .myImage {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .myImage img {
+    display: block;
+    position: relative;
+    top: 70;
+    float: right;
+    background-size: cover;
+    width: 60%;
+  }
+
+  .topContent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sectionTwoTextClass img {
+    rotate: 90deg;
+  }
+
+  .myCards {
+    display: flex;
+    flex-direction: column; /* Stack the cards vertically */
+    align-items: center;
+    width: 100%; /* Full width for the container */
+    padding: 20px;
+    gap: 20px; /* Add space between each card */
+  }
+
+  .cardOne,
+  .cardTwo,
+  .cardThree {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+    width: 80%; /* Increase the width of the cards */
+    height: auto; /* Remove fixed height to fit content */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    background: #333333;
-    transition: opacity 0.75s, visibility 0.75s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for a raised effect */
   }
-  
-  .loader--hidden {
-    opacity: 0;
-    visibility: hidden;
+
+  .cardOne h1,
+  .cardTwo h1,
+  .cardThree h1 {
+    font-size: 3rem; /* Large font size for the numbers */
+    font-weight: bold;
   }
-  
-  .loader::after {
-    content: "";
-    width: 75px;
-    height: 75px;
-    border: 15px solid #dddddd;
-    border-top-color: #009578;
-    border-radius: 50%;
-    animation: loading 0.75s ease infinite;
+
+  .cardOne h1 {
+    color: #4a90e2; /* Blue for the first card */
   }
-  
-  @keyframes loading {
-    from {
-      transform: rotate(0turn);
-    }
-    to {
-      transform: rotate(1turn);
-    }
+
+  .cardTwo h1 {
+    color: #4a90e2; /* Blue for the second card */
   }
-  
 
-  /* Responsive for mobile screens */
-  @media (max-width: 768px) {
-    .nav-links {
-      display: none;
-      position: absolute;
-      top: 100%;
-      right: 0;
-      background-color:#0d0d0d;
-      width: 100%;
-      z-index: 1;
-    }
-  
-    .nav-links ul {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .nav-links ul li {
-      margin: 10px 0;
-    }
-  
-    .hamburger {
-      display: flex;
-    }
-  
-    .nav-links.active {
-      display: flex;
-    }
-
-
-    .lineOneExtend{
-        display: none;
-    }
-
-    .lineTwoExtend{
-        display: none;
-    }
-
-    .tesla-logo{
-        left: auto;
-    }
-    .slack-logo{
-        left: auto;    
-        }
-    .grab-logo{
-
-    left: auto;    
-    }
-    .twitter-logo{
-    left: auto;    
-    }
-
-
-
-
-
-
-
-
-
-
+  .cardThree h1 {
+    color: #d72c2c; /* Red/purple for the third card */
   }
-  
+
+  .cardOne span,
+  .cardTwo span,
+  .cardThree span {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #ccc;
+  }
+
+  .skills {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .textHead {
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  .textCard {
+    line-height: 1.8;
+    font-weight: 200;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .codingCard,
+  .infrastructureCard,
+  .webMasterCard {
+    width: 100%;
+    text-align: center;
+    background-color: #1a1a1a;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #3a3a3a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  }
+
+  .codingCard img,
+  .infrastructureCard img,
+  .webMasterCard img {
+    width: 60px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .codingCard div,
+  .infrastructureCard div,
+  .webMasterCard div {
+    margin-bottom: 10px;
+  }
+
+  .sectionThree > img {
+    display: none;
+  }
+
+  .sectionThree {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 3000px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .left-column {
+    width: 100%;
+  }
+  .right-column {
+    width: 100%;
+  }
+
+  .sectionTwoTextClass {
+    display: inline-block;
+
+    width: 100%;
+
+    /* padding: 40px; */
+    padding-bottom: 70px;
+    padding-top: 0px;
+  }
+  .sectionTwoTextClass > img {
+    width: 20px;
+    height: 20px;
+    padding-left: 10px;
+  }
+
+  .ParentParentAboutMe > img {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;
+    rotate: 90deg;
+  }
+  .parentAboutMe {
+    font-size: 100px;
+    font-weight: 900;
+  }
+
+  .sectionTwoTextClass > .text {
+    font-size: 1rem;
+  }
+
+  .Projects {
+    color: #18beff;
+    width: fit-content;
+
+    font-size: 4rem;
+    font-weight: 900;
+  }
+
+  .sectionFour {
+    padding: 10px 40px 10px 40px;
+  }
+
+  .ContactsParent {
+    display: inline-block;
+    font-size: 100px;
+    font-weight: 100;
+    width: fit-content;
+  }
+
+  .Contacts {
+    color: #448ee4;
+    font-size: 4.5rem;
+  }
+
+  .sectionThreeTextClass {
+    padding: 10px;
+    padding-bottom: 50px;
+  }
+
+  .sectionThreeTextClass > img {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding-left: 10px;
+    rotate: 90deg;
+  }
+
+  .submit-btn button {
+    width: 200px;
+    text-align: center;
+  }
+}
